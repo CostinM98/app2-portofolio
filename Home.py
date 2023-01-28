@@ -41,7 +41,7 @@ with col3:
 
         st.write(row['description'])
         st.image('images/' + row['image'])
-        st.write('[Source Code](https://github.com/CostinM98/WebAppNo.1.git)')
+        st.write('[Source Code](https://github.com/CostinM98/WebApp1)')
 
 
 with col4:
