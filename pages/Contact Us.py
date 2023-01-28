@@ -1,13 +1,23 @@
 import streamlit as st
-
+from send_email import sendEmail
 st.header('Contact Me')
 
 with st.form(key='email_forms'):
     user_email = st.text_input('Your email adress :')
+    raw_message = st.text_area('Your message')
 
-    message = st.text_area('Your message')
+    button = st.form_submit_button('Submit')
 
-    button = st.form_submit_button()
+message=f'''\
+Subject:New email from {user_email}
 
-    if button == True:
-        print("Button was pressed!")
+From: {user_email}
+
+{raw_message}
+
+'''
+
+if button == True:
+    sendEmail(message)
+    st.info('Your email was sent successfully')
+    print(message)
