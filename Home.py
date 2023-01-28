@@ -13,7 +13,7 @@ with col2:
     streamlit.title("Morun Costin-Andrei")
     content="""
     
-    Seeking a career change to a position involving Software Testing. Driven self-starter and fast learner.
+    I am looking for an entry-level position to kickstart my career in the Software Testing. I wish to work in a dynamic organisation that will contribute to my professional and personal growth while I contribute to the growth of the company as well as engage in opportunities to further the company’s goals.
     
     
     """
@@ -23,14 +23,14 @@ with col2:
 
 content2='''
 
-Below you can find some apps I have built in Python(for it will be only one maybe).Feel free to contact me!
+Below you can find some apps I have built in Python(Only the Todo APP is available).Feel free to contact me!
 
 
 
 
 '''
 
-st.write(content2)
+st.info(content2)
 
 col3,emptyCol,col4=st.columns([1.5,0.5,1.5])
 
