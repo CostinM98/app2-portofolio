@@ -21,3 +21,4 @@ if button == True:
     sendEmail(message)
     st.info('Your email was sent successfully')
     print(message)
+print('Something')
