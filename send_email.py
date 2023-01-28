@@ -1,7 +1,8 @@
 import smtplib
 import ssl
 import os
-
+# I have created a random Gmail account for this experiment
+# This is not my daily use Gmail address
 def sendEmail(message):
     host = 'smtp.gmail.com'
     port = 465
