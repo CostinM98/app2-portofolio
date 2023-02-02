@@ -26,8 +26,6 @@ content2 = '''
 Below you can find some apps I have built in Python(Only the Todo APP,Positive News Site,PDF Invoices and PDF Templates is available).Feel free to contact me!
 
 
-
-
 '''
 
 st.info(content2)
@@ -43,16 +41,6 @@ with col3:
         st.image('images/' + row['image'])
         st.write(f"[Source Code]({row['url']})")
 
-# with col3:
-#     for index, row in df[4:10].iterrows():
-#         st.header(row['title'])
-#
-#         st.write(row['description'])
-#         st.image('images/' + row['image'])
-#         st.write('[Source Code1](https://github.com/CostinM98/Emil-News.git')
-
-
-#         +'\n'+'\n'+'[Source Code](https://github.com/CostinM98/Emil-News)'
 
 with col4:
     for index, row in df[10:].iterrows():
