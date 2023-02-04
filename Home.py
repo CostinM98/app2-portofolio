@@ -23,7 +23,7 @@ with col2:
 
 content2 = '''
 
-Below you can find some apps I have built in Python(Only the Todo APP,Positive News Site,PDF Invoices and PDF Templates is available).Feel free to contact me!
+Below you can find some apps I have built in Python(Only the Todo APP,Positive News Site,The Booking App,PDF Invoices and PDF Templates is available).Feel free to contact me!
 
 
 '''
@@ -43,7 +43,7 @@ with col3:
 
 
 with col4:
-    for index, row in df[10:].iterrows():
+    for index, row in df[11:].iterrows():
         st.header(row['title'])
         st.write(row["description"])
         st.image('images/' + row['image'])
